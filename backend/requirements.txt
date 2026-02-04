@@ -1,0 +1,17 @@
+# No external dependencies currently - using only Python stdlib
+# Add future dependencies here as needed:
+#
+# Web framework (when API is implemented):
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+#
+# Data processing:
+# pandas>=2.1.0
+# numpy>=1.26.0
+#
+# Database (when needed):
+# sqlalchemy>=2.0.0
+#
+# Testing:
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
