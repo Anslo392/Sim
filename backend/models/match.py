@@ -117,8 +117,7 @@ class Match:
         self.match_state = None  # Created during play
 
     def generate_timeline(self, sim_params=None):
-        """Generate events based on team ELOs - preserves original scoring formula"""
-        # Preserve original scoring: int(6*random()*elo/100)
+        #Generate events based on team ELOs - preserves original scoring formula
         score_a = int(6 * random.random() * self.team_a.elo / 100)
         score_b = int(6 * random.random() * self.team_b.elo / 100)
 
